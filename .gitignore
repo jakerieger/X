@@ -1,0 +1,154 @@
+# Build directories
+build/
+cmake-build-*/
+bin/
+lib/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+!CMakeLists.txt
+
+# Visual Studio
+ .vs/
+ *.sln
+ *.vcxproj
+ *.vcxproj.filters
+ *.vcxproj.user
+ *.suo
+ *.user
+ *.ncb
+ *.aps
+ *.pch
+ *.vspscc
+ *_i.c
+ *_p.c
+ *.ilk
+ *.meta
+ *.obj
+ *.pdb
+ *.pgc
+ *.pgd
+ *.rsp
+ *.sbr
+ *.tlb
+ *.tli
+ *.tlh
+ *.tmp
+ *.tmp_proj
+ *.log
+ *.vssscc
+ .builds
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace/
+
+# Code::Blocks
+*.layout
+*.cbp
+
+# Codelite
+*.project
+*.workspace
+
+# Qt Creator
+CMakeLists.txt.user*
+
+# KDevelop
+*.kdev4
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+*.swp
+*.swo
+*~
+.vscode/
+*.sublime-*
+
+# CLion
+.idea/
+build/
+cmake-build-*/
+
+# Asset cache/temporary files
+*.tmp
+*.cache
+*_cache/
+.import/
+
+# Shader compiled files
+*.spv
+*.dxil
+*.metallib
